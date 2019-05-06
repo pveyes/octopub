@@ -1,0 +1,19 @@
+[package]
+name = "gh-profile"
+version = "0.1.0"
+authors = ["Fatih Kalifa <fatihkalifa@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+http = "0.1"
+lambda_runtime = "*"
+scraper = "*"
+url = "*"
+reqwest = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+
+[[bin]]
+name = "index"
+path = "index.rs"

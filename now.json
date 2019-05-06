@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "gh-profile",
+  "alias": "gh-profile.now.sh",
+  "builds": [
+    {
+      "src": "index.rs",
+      "use": "@now/rust"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.rs"
+    }
+  ]
+}
