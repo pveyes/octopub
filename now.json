@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "region": [
+    "sin"
+  ],
   "name": "octopub",
   "alias": "octopub.now.sh",
   "builds": [

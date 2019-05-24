@@ -43,7 +43,8 @@ pub fn get_profile_data(username: &str) -> http::Result<Response<String>> {
     let response = Response::builder()
         .status(StatusCode::OK)
         .header(header::CONTENT_TYPE, "application/json")
-        .header(header::CACHE_CONTROL, "public, s-maxage=3600, stale-while-revalidate")
+        .header(header::CACHE_CONTROL, "public, maxage=3600, s-maxage=3600, stale-while-revalidate")
+        .header(header::ACCESS_CONTROL_ALLOW_ORIGIN, "*")
         .body(content_str)
         .expect("Failed to render response");
     Ok(response)
