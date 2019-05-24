@@ -1,5 +1,5 @@
 [package]
-name = "gh-profile"
+name = "octopub"
 version = "0.1.0"
 authors = ["Fatih Kalifa <fatihkalifa@gmail.com>"]
 edition = "2018"

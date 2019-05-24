@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "gh-profile",
-  "alias": "gh-profile.now.sh",
+  "name": "octopub",
+  "alias": "octopub.now.sh",
   "builds": [
     {
       "src": "index.rs",
